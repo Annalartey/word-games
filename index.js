@@ -15,7 +15,7 @@ function randomWord() {
   maxGuesses = 8;
   corrects = [];
   incorrects = [];
-  console.log(word);  
+  console.log(word); 
 
   let html = "";
   for (let i = 0; i < word.length; i++) {
